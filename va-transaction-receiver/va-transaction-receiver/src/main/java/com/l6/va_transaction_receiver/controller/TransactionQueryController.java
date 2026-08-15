@@ -21,7 +21,6 @@ import java.util.List;
  */
 @RestController
 @RequestMapping("/api/transactions")
-@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:3000"})
 public class TransactionQueryController {
 
     private final TransactionRecordRepository repository;
